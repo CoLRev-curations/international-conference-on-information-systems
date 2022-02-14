@@ -2,7 +2,7 @@
   search_type: LOCAL_PAPER_INDEX
   source_name: ICIS
   source_url: /home/gerit/ownCloud/data/journals/ICIS
-  outlet: booktitle=International Conference on Information Systems
+  outlet: conference=International Conference on Information Systems
   sub_dir_pattern: year
   search_parameters: NA
   comment: NA
