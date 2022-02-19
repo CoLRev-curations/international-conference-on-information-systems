@@ -10,7 +10,7 @@ status:
     md_needs_manual_preparation: 2
     md_prepared: 6299
     md_processed: 0
-    md_retrieved: 24
+    md_retrieved: 0
     non_completed: 6301
     non_processed: 6301
     pdf_imported: 0
@@ -29,7 +29,7 @@ status:
     md_needs_manual_preparation: 6301
     md_prepared: 6299
     md_processed: 0
-    md_retrieved: 6325
+    md_retrieved: 6301
     pdf_imported: 0
     pdf_needs_manual_preparation: 0
     pdf_needs_manual_retrieval: 0
