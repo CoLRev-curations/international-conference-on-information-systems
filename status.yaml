@@ -2,6 +2,7 @@ atomic_steps: 69311
 completed_atomic_steps: 12600
 completeness_condition: false
 status:
+  LPI_recs: 7
   currently:
     exclusion: {}
     md_duplicates_removed: 0
