@@ -2,7 +2,17 @@
   search_type: LOCAL_PAPER_INDEX
   source_name: ICIS
   source_url: /home/gerit/ownCloud/data/journals/ICIS
+  search_parameters: NA
+  last_sync: null
+  comment: NA
   outlet: conference=International Conference on Information Systems
   sub_dir_pattern: year
-  search_parameters: NA
-  comment: NA
+- filename: corrections.bib
+  search_type: OTHER
+  source_name: corrections
+  source_url: corrections.bib
+  search_parameters: ''
+  last_sync: null
+  comment: ''
+  outlet: null
+  sub_dir_pattern: null
