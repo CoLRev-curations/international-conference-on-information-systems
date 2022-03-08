@@ -2,6 +2,7 @@ atomic_steps: 0
 completed_atomic_steps: 0
 completeness_condition: true
 status:
+  CURATED_records: 0
   currently:
     exclusion: {}
     md_duplicates_removed: 0

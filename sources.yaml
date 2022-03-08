@@ -1,0 +1,21 @@
+- filename: DBLP.bib
+  search_type: FEED
+  source_name: International Confereence on Information Systems
+  source_url: ''
+  search_parameters:
+  - SCOPE venue_key='conf/icis' AND journal_abbreviated='icis'
+  last_sync: null
+  comment: ''
+  outlet: null
+  sub_dir_pattern: null
+  search_endpoint: dblp
+- filename: pdfs.bib
+  search_type: PDFS
+  source_name: ICIS
+  source_url: pdfs
+  search_parameters: NA
+  last_sync: null
+  comment: NA
+  outlet: conference=International Conference on Information Systems
+  sub_dir_pattern: year
+  search_endpoint: null
