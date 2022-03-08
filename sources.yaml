@@ -2,8 +2,9 @@
   search_type: FEED
   source_name: International Confereence on Information Systems
   source_url: ''
-  search_parameters:
-  - SCOPE venue_key='conf/icis' AND journal_abbreviated='icis'
+  search_parameters: 
+    - endpoint: dblp
+      params: SCOPE venue_key='conf/icis' AND journal_abbreviated='icis'
   last_sync: null
   comment: ''
   outlet: null
