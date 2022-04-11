@@ -11,12 +11,10 @@
   sub_dir_pattern: null
   search_endpoint: dblp
 - filename: pdfs.bib
-  search_type: PDFS
+  search_type: FEED
   source_name: ICIS
   source_url: pdfs
-  search_parameters: NA
-  last_sync: null
+  search_parameters:
+  - endpoint: pdfs_directory
+    params: SCOPE path='pdfs' WITH conference='International Conference on Information Systems' AND sub_dir_pattern='year'
   comment: NA
-  outlet: conference=International Conference on Information Systems
-  sub_dir_pattern: year
-  search_endpoint: null
