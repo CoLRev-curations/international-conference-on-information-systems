@@ -12,7 +12,22 @@
         ]
     },
     "search": {
-        "sources": []
+        "sources": [
+            {
+                "filename": "DBLP.bib",
+                "search_type": "FEED",
+                "source_identifier": "{{dblp_key}}",
+                "search_parameters": "SCOPE venue_key='conf/icis' AND journal_abbreviated='icis'",
+                "comment": ""
+            },
+            {
+                "filename": "pdfs.bib",
+                "search_type": "FEED",
+                "source_identifier": "{{file}}",
+                "search_parameters": "SCOPE path='pdfs' WITH conference='International Conference on Information Systems' AND sub_dir_pattern='year'",
+                "comment": ""
+            }
+        ]
     },
     "load": {},
     "prep": {
