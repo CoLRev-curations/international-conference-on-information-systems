@@ -44,7 +44,9 @@
             "comment": ""
         }
     ],
-    "search": {},
+    "search": {
+        "retrieve_forthcoming": false
+    },
     "load": {},
     "prep": {
         "fields_to_keep": [],
@@ -84,9 +86,6 @@
                         "endpoint": "resolve_crossrefs"
                     },
                     {
-                        "endpoint": "get_doi_from_sem_scholar"
-                    },
-                    {
                         "endpoint": "get_doi_from_urls"
                     },
                     {
@@ -115,9 +114,6 @@
                     },
                     {
                         "endpoint": "drop_fields"
-                    },
-                    {
-                        "endpoint": "update_metadata_status"
                     }
                 ]
             },
@@ -127,9 +123,6 @@
                 "scripts": [
                     {
                         "endpoint": "prep_curated"
-                    },
-                    {
-                        "endpoint": "get_doi_from_sem_scholar"
                     },
                     {
                         "endpoint": "get_doi_from_urls"
@@ -163,9 +156,6 @@
                     },
                     {
                         "endpoint": "drop_fields"
-                    },
-                    {
-                        "endpoint": "update_metadata_status"
                     }
                 ]
             },
@@ -180,9 +170,6 @@
                         "endpoint": "correct_recordtype"
                     },
                     {
-                        "endpoint": "get_doi_from_sem_scholar"
-                    },
-                    {
                         "endpoint": "get_doi_from_urls"
                     },
                     {
@@ -214,9 +201,6 @@
                     },
                     {
                         "endpoint": "drop_fields"
-                    },
-                    {
-                        "endpoint": "update_metadata_status"
                     }
                 ]
             }
@@ -257,6 +241,7 @@
     "pdf_get": {
         "pdf_path_type": "symlink",
         "pdf_required_for_screen_and_synthesis": true,
+        "rename_pdfs": true,
         "scripts": [
             {
                 "endpoint": "unpaywall"
