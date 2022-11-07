@@ -65,8 +65,20 @@
         "fields_to_keep": [],
         "prep_rounds": [
             {
+                "name": "source_specific_prep",
+                "similarity": 1,
+                "prep_package_endpoints": [
+                    {
+                        "endpoint": "colrev_built_in.source_specific_prep"
+                    },
+                    {
+                        "endpoint": "custom_prep_script"
+                    }
+                ]
+            },
+            {
                 "name": "exclusion",
-                "similarity": 1.0,
+                "similarity": 1,
                 "prep_package_endpoints": [
                     {
                         "endpoint": "colrev_built_in.exclude_non_latin_alphabets"
