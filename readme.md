@@ -42,7 +42,7 @@ colrev environment --install geritwagner/international-conference-on-information
 |1998          |              64|            *64*|              NO|
 |1997          |              78|            *80*|              NO|
 |1996          |              86|            *86*|              NO|
-|1995          |              56|            *43*|              NO|
+|1995          |              56|            *44*|              NO|
 |1994          |              74|            *74*|              NO|
 |1993          |              63|            *62*|              NO|
 |1992          |              61|            *57*|              NO|
