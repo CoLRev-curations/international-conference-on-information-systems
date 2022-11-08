@@ -25,7 +25,7 @@ colrev environment --install geritwagner/international-conference-on-information
 |2015          |             342|           *341*|              NO|
 |2014          |             322|           *322*|              NO|
 |2013          |             334|           *322*|              NO|
-|2012          |             308|           *307*|              NO|
+|2012          |             308|           *308*|              NO|
 |2011          |             303|           *298*|              NO|
 |2010          |          *1*267|           *267*|              NO|
 |2009          |             205|           *205*|              NO|
