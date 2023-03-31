@@ -16,6 +16,7 @@ colrev env --install geritwagner/international-conference-on-information-systems
 
 |TOC           |DBLP.bib        |pdfs.bib        |all_merged      |
 |--------------|----------------|----------------|----------------|
+|2022          |           *329*|               -|              NO|
 |2021          |             375|             369|              NO|
 |2020          |             325|             311|              NO|
 |2019          |             438|             426|              NO|
