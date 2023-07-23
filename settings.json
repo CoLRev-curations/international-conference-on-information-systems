@@ -19,7 +19,7 @@
         "id_pattern": "three_authors_year",
         "share_stat_req": "processed",
         "delay_automated_processing": false,
-        "colrev_version": "0.9.0",
+        "colrev_version": "0.9.1",
         "auto_upgrade": true
     },
     "sources": [
@@ -32,9 +32,6 @@
                     "venue_key": "conf/icis",
                     "journal_abbreviated": "icis"
                 }
-            },
-            "load_conversion_package_endpoint": {
-                "endpoint": "colrev.bibtex"
             },
             "comment": ""
         },
@@ -49,9 +46,6 @@
                     "conference": "International Conference on Information Systems",
                     "path": "data/pdfs"
                 }
-            },
-            "load_conversion_package_endpoint": {
-                "endpoint": "colrev.bibtex"
             },
             "comment": ""
         }
