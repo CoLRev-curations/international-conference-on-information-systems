@@ -15,11 +15,11 @@
         ],
         "keywords": [],
         "protocol": null,
-        "review_type": "curated_masterdata",
+        "review_type": "colrev.curated_masterdata",
         "id_pattern": "three_authors_year",
         "share_stat_req": "processed",
         "delay_automated_processing": false,
-        "colrev_version": "0.10.3",
+        "colrev_version": "0.11.0",
         "auto_upgrade": true
     },
     "sources": [
@@ -62,6 +62,9 @@
                 "similarity": 0.8,
                 "prep_package_endpoints": [
                     {
+                        "endpoint": "colrev.colrev_curation"
+                    },
+                    {
                         "endpoint": "colrev.source_specific_prep"
                     },
                     {
@@ -102,7 +105,6 @@
         ]
     },
     "dedupe": {
-        "same_source_merges": "prevent",
         "dedupe_package_endpoints": [
             {
                 "endpoint": "colrev.curation_full_outlet_dedupe",
@@ -144,19 +146,16 @@
         "keep_backup_of_pdfs": true,
         "pdf_prep_package_endpoints": [
             {
-                "endpoint": "colrev.pdf_check_ocr"
+                "endpoint": "colrev.ocrmypdf"
+            },
+            {
+                "endpoint": "colrev.grobid_tei"
             },
             {
                 "endpoint": "colrev.remove_coverpage"
             },
             {
                 "endpoint": "colrev.remove_last_page"
-            },
-            {
-                "endpoint": "colrev.validate_pdf_metadata"
-            },
-            {
-                "endpoint": "colrev.create_tei"
             }
         ],
         "pdf_prep_man_package_endpoints": [
